@@ -31,8 +31,14 @@ body {
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+
 .quote-text {
   font-size: 2.75rem;
+  color: rgb(0, 0, 87);
+}
+
+.heading {
+  color: rgb(0, 0, 87);
 }
 
 .long-quote {
@@ -62,11 +68,11 @@ button {
   height: 2.5rem;
   border: none;
   border-radius: 10px;
-  color: #fff;
+  color:  #38a1f3;
   background: #333;
   outline: none;
   padding: 0.5rem 1.8rem;;
-  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.527);
 }
 
 button:hover {
@@ -79,11 +85,16 @@ button:active{
 }
 
 .twitter-button:hover {
-  color: #38a1f3;
+  color: #2a7cbb;
 }
 
 .fa-twitter {
   font-size: 1.5rem;
+}
+
+#new-quote {
+  background-color:  rgb(0, 0, 87);
+  color: whitesmoke;
 }
 
 // Loader
